@@ -9,7 +9,7 @@ services:
     autoDeploy: false
     envVars:
       - key: BOT_TOKEN
-        sync: false
+        sync: true
       - key: API_ID
         sync: false
       - key: API_HASH
